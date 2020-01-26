@@ -9,7 +9,7 @@ class App extends React.Component {
     };
   }
   componentDidMount() {
-    const endPoint = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=c43c202b0d954204b0d7221151ecce26`;
+    const endPoint = `you own api`;
     fetch(endPoint)
       .then(res => res.json())
       .then(data => {
